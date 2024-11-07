@@ -1,3 +1,18 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
+
 @import 'tailwindcss/utilities';
+
+
+/* Reset padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global font and background */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  

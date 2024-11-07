@@ -17,34 +17,33 @@
     .container {
       display: flex;
       height: 100vh;
-      width: 100vw;
       flex-direction: row; /* Default: side by side */
     }
   
     /* Common styling for both title-banner and menu-items */
-    .title-banner,
-    .menu-items {
+    .title-banner, .menu-items {
       width: 50%;            /* Each takes up half the width on larger screens */
       display: flex;          /* Flexbox for child alignment */
       flex-direction: column;
       justify-content: center; /* Center vertically */
       align-items: center;     /* Center horizontally */
-      padding: 20px;
-      height: 100%;           /* Full height of the container */
+      padding: 5%;
+      border: white 3px solid;
     }
   
     .title-banner {
-      background-color: #f050f0;
       text-align: center;
+      margin: 1% 0.5% 1% 1%;
     }
   
     .menu-items {
-      background-color: #e0e060;
+        margin: 1% 1% 1% 0.5%;
+
     }
   
     .next-event {
       margin-top: 10px;
-      background-color: aliceblue;
+     
     }
   
     /* Media query to stack items on smaller screens */

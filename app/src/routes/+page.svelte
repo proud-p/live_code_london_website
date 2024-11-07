@@ -1,18 +1,35 @@
 <div class="container">
     <div class="title-banner">
-      <h1>Live Code London</h1>
+      <h1 class="title"> Live Code London </h1>
       <section class="next-event">
-        <h2>Next Upcoming Event</h2>
+
+        <h2>Upcoming Event</h2>
+        <br/>
         <p>Placeholder for next upcoming event</p>
-      </section>
+    </section>
+    
     </div>
   
     <div class="menu-items">
-      <p>Placeholder for menu items</p>
+      <nav>
+	<a href="/">Home</a>
+    <a href="/resources">Resources</a>
+	<a href="/about">About</a>
+	
+	<a href="/events">Events</a>
+	<a href="/donate">Donate</a>
+	<a href="/faq">FAQ</a>
+  </nav>
     </div>
   </div>
   
   <style>
+    .title {
+      font-family: 'ZillaSlabHighlight';
+      padding: 5%;
+      font-size: 3rem;
+    }
+
     /* Main container styling for full screen */
     .container {
       display: flex;
@@ -38,11 +55,43 @@
   
     .menu-items {
         margin: 1% 1% 1% 0.5%;
-
     }
-  
-    .next-event {
-      margin-top: 10px;
+    
+
+.menu-items nav a {
+    display: block;
+    color: rgba(255, 255, 255, 0.324);
+    text-decoration: none;
+    margin: 5px 0;
+    font-size: 1.2em;
+    padding-left: 20px;   /* Space for the ">" symbol */
+    position: relative;   /* Needed for absolute positioning of ::before */
+    width: 40%;         /* Set a fixed width to prevent shifting */
+    text-align: left;     /* Align text to the left within each link */
+    font-family: 'KodeMono';
+}
+
+.menu-items nav a:hover {
+  color: white;
+  transition: 0.2s ease;
+}
+
+.menu-items nav a:hover::before {
+    content: "> ";
+    color: white;
+    position: absolute;
+    left: 0;
+}
+
+.next-event {
+  margin: 5%;
+}
+
+
+
+    .next-event p{
+      padding: 10%;
+      border: 2px white solid;
      
     }
   

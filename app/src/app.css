@@ -1,5 +1,94 @@
 @import 'tailwindcss/utilities';
 
+/* Import fonts */
+/* Kode Mono */
+@font-face {
+  font-family: 'KodeMono';
+  src: url('/fonts/Kode_Mono/static/KodeMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KodeMono';
+  src: url('/fonts/Kode_Mono/static/KodeMono-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KodeMono';
+  src: url('/fonts/Kode_Mono/static/KodeMono-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KodeMono';
+  src: url('/fonts/Kode_Mono/static/KodeMono-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Kode Mono font family */
+@font-face {
+  font-family: 'KodeMono';
+  src: url('/fonts/Kode_Mono/static/KodeMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KodeMono';
+  src: url('/fonts/Kode_Mono/static/KodeMono-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Silkscreen font family */
+@font-face {
+  font-family: 'Silkscreen';
+  src: url('/fonts/Silkscreen/Silkscreen-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Silkscreen';
+  src: url('/fonts/Silkscreen/Silkscreen-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Sixtyfour Convergence font family */
+@font-face {
+  font-family: 'SixtyfourConvergence';
+  src: url('/fonts/Sixtyfour_Convergence/static/SixtyfourConvergence-Regular-Variable.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Space Grotesk font family */
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('/fonts/Space_Grotesk/static/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Zilla Slab Highlight font family */
+@font-face {
+  font-family: 'ZillaSlabHighlight';
+  src: url('/fonts/Zilla_Slab_Highlight/ZillaSlabHighlight-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ZillaSlabHighlight';
+  src: url('/fonts/Zilla_Slab_Highlight/ZillaSlabHighlight-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
 
 /* Reset padding and margin */
 * {

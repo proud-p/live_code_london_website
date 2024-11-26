@@ -60,10 +60,10 @@
 
 .menu-items nav a {
     display: block;
-    color: rgba(255, 255, 255, 0.324);
+    color: rgba(255, 255, 255, 0.95);
     text-decoration: none;
     margin: 5px 0;
-    font-size: 1.2em;
+    font-size: 2rem;
     padding-left: 20px;   /* Space for the ">" symbol */
     position: relative;   /* Needed for absolute positioning of ::before */
     width: 40%;         /* Set a fixed width to prevent shifting */
@@ -72,15 +72,19 @@
 }
 
 .menu-items nav a:hover {
-  color: white;
+  color: black;
+  background-color: white;
   transition: 0.2s ease;
+  width: auto;
 }
 
 .menu-items nav a:hover::before {
     content: "> ";
-    color: white;
+    color: black;
+    background-color: white;
     position: absolute;
     left: 0;
+   
 }
 
 .next-event {
